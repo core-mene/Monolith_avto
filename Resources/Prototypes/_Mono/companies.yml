@@ -23,7 +23,8 @@
 - type: company
   id: TSFHighComm
   form: Protagonist
-  name: TSF High Command
+  name: Winter Solstice
+  description: winter-solstice-description
   color: "#008CE3"
   disabled: true
   logins: # admins only here !!! or your PR will be CLOSED!!!! also serves as a example for ur whitelisted factions
@@ -45,6 +46,14 @@
   name: Dark Matter Enterprises
   description: dark-matter-enterprises-description
   color: "#BF00B9"
+  image: /Textures/_Mono/Companies/dme.png #DME Logo
+
+- type: company
+  id: AetherionDynamics
+  form: Protagonist
+  name: Aetherion Dynamics
+  description: aetherion-dynamics-description
+  color: "#7E72B2"
 
 - type: company
   id: SouthernPeakMercenaries
@@ -67,11 +76,5 @@
   name: The Viper Group
   description: viper-group-description
   color: "#D82918"
-
-- type: company
-  id: AetherionDynamics
-  form: Antagonist
-  name: Aetherion Dynamics
-  color: "#7E72B2"
-
+  image: /Textures/_Mono/Companies/thevipergroup.png # Example
 

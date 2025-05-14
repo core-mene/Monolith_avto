@@ -13,6 +13,7 @@
   id: MobProtogenSprites
   sprites:
     Head: MobProtogenHead
+    Hair: MobHumanoidAnyMarking
     Snout: MobHumanoidAnyMarking
     Chest: MobProtogenTorso
     HeadTop: MobHumanoidAnyMarking
@@ -38,8 +39,9 @@
       points: 0
       required: false
     Snout:
-      points: 0
-      required: false
+      points: 1
+      required: true
+      defaultMarkings: [ ProtogenVisor ]
     Tail:
       points: 1
       required: true

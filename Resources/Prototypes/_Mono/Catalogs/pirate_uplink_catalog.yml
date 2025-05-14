@@ -333,6 +333,22 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkPirateSecurityCyborgModule
+  name: uplink-pirate-security-cyborg-module-name
+  description: uplink-pirate-security-cyborg-module-desc
+  icon: { sprite: Interface/Actions/actions_borg.rsi, state: syndicate-weapon-module }
+  productEntity: BorgModuleSecurity
+  cost:
+    Doubloon: 10
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 # Ammunition
 
 - type: listing
@@ -460,8 +476,8 @@
 
 - type: listing
   id: UplinkPirateBoxSubsonic
-  name:  uplink-subsonic-mag-name
-  description: uplink-subsonic-mag-desc
+  name:  uplink-subsonic-box-name
+  description: uplink-subsonic-box-desc
   productEntity: MagazineBoxLightRifleSubsonic
   cost:
     Doubloon: 3
@@ -590,7 +606,7 @@
   productEntity: ClothingBackpackDuffelSyndicateFilledShotgun
   icon: { sprite: Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
   cost:
-    Doubloon: 25
+    Doubloon: 20
   categories:
   - UplinkPirateWeapons
   conditions:
@@ -735,6 +751,22 @@
   productEntity: ClothingOuterHardsuitPirateScaf
   icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi, state: icon }
   cost:
+    Doubloon: 5
+  categories:
+  - UplinkPirateHardsuits
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkViperStandardHardsuit
+  name:  uplink-pirate-viper-group-standard-hardsuit-name
+  description: uplink-pirate-viper-group-standard-hardsuit-desc
+  productEntity: ClothingOuterHardsuitViperGroupStandard
+  icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi, state: icon }
+  cost:
     Doubloon: 15
   categories:
   - UplinkPirateHardsuits
@@ -744,6 +776,21 @@
       tags:
       - PirateUplink
 
+- type: listing
+  id: UplinkViperMedicHardsuit
+  name:  uplink-pirate-viper-group-medic-hardsuit-name
+  description: uplink-pirate-viper-group-medic-hardsuit-desc
+  productEntity: ClothingOuterHardsuitViperGroupMedic
+  icon: { sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_medic.rsi, state: icon }
+  cost:
+    Doubloon: 5
+  categories:
+  - UplinkPirateHardsuits
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
 
 - type: listing
   id: UplinkPirateWebVest
@@ -752,7 +799,7 @@
   productEntity: ClothingOuterVestWeb
   icon: { sprite: Clothing/OuterClothing/Vests/webvest.rsi, state: icon }
   cost:
-    Doubloon: 5
+    Doubloon: 3
   categories:
   - UplinkPirateHardsuits
   conditions:
@@ -768,7 +815,7 @@
   productEntity: ClothingMaskGasSyndicate
   icon: { sprite: Clothing/Mask/gassyndicate.rsi, state: icon }
   cost:
-    Doubloon: 3
+    Doubloon: 1
   categories:
   - UplinkPirateHardsuits
   conditions:
