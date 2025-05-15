@@ -15,6 +15,21 @@
       - PirateUplink
 
 - type: listing
+  id: UplinkPirateInterdyneDefibrillator
+  name:  uplink-pirate-interdyne-defibrillator-name
+  description: uplink-pirate-interdyne-defibrillator-desc
+  productEntity: DefibrillatorSyndicate
+  cost:
+    Doubloon: 12
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
   id: UplinkPirateRogueCommsComputerCircuitboard
   name:  uplink-pirate-comms-computer-circuitboard-name
   description: uplink-pirate-comms-computer-circuitboard-desc
@@ -48,6 +63,37 @@
     whitelist:
       tags:
       - PirateUplink
+
+- type: listing
+  id: UplinkPirateSyndicateMagboots
+  name:  uplink-pirate-syndicate-magboots-name
+  description: uplink-pirate-syndicate-magboots-desc
+  productEntity: ClothingShoesBootsMagSyndie
+  cost:
+    Doubloon: 1
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
+- type: listing
+  id: UplinkPirateSyndicateJetpack
+  name:  uplink-pirate-syndicate-jetpack-name
+  description: uplink-pirate-syndicate-jetpack-desc
+  productEntity: JetpackBlackFilled
+  cost:
+    Doubloon: 1
+  categories:
+  - UplinkPirateUtility
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - PirateUplink
+
 
 - type: listing
   id: UplinkPirateEmpGrenade

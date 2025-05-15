@@ -2240,3 +2240,87 @@ Entries:
       message: Fixed reinforced hull plating being indestructible.
   id: 267
   time: '2025-05-14T11:08:59.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Added Compact Defib to TSF Brigmedic Uplink for 3 FUCs.
+    - type: Add
+      message: Added a non-bundled separate Interdyne Defib to pirate uplink for 12 DB.
+    - type: Add
+      message: >-
+        Added Compact Defibs to the T2 Advanced Treatment tech, now buildable in
+        the Medfab and Protolathe.
+    - type: Add
+      message: DoC gets a Compact Defib in their locker.
+    - type: Tweak
+      message: Interdyne Defibs are now C3 Syndie Contra.
+  id: 268
+  time: '2025-05-14T16:59:44.0000000+00:00'
+- author: Ghost581
+  changes:
+    - type: Tweak
+      message: Killing people with hatchets and whatnot is now viable.
+  id: 269
+  time: '2025-05-14T17:02:08.0000000+00:00'
+- author: EctoplasmIsGood
+  changes:
+    - type: Add
+      message: Marine privates now get an uplink
+  id: 270
+  time: '2025-05-14T17:02:36.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Add
+      message: Ships will now be hidden from radar during FTL.
+  id: 271
+  time: '2025-05-14T17:03:11.0000000+00:00'
+- author: Ghost581
+  changes:
+    - type: Add
+      message: 'the Viper Group is now whitelisted. '
+  id: 272
+  time: '2025-05-14T17:32:53.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: >-
+        Elite suit actually fast as in the description. Now 55% Pierce, 45%
+        Blunt/Slash.
+  id: 273
+  time: '2025-05-14T20:08:20.0000000+00:00'
+- author: SolsticeOfTheWinter
+  changes:
+    - type: Fix
+      message: Fixed the shield console not updating properly.
+  id: 274
+  time: '2025-05-14T23:58:23.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Add
+      message: Bloodred Magboots and Black Jetpacks to Rogue uplinks.
+  id: 275
+  time: '2025-05-15T00:55:25.0000000+00:00'
+- author: Redrover1760
+  changes:
+    - type: Remove
+      message: EVA suits having hardsuit armor
+    - type: Add
+      message: Individual armor values for EVA suits depending on their specialty
+    - type: Tweak
+      message: Paramedic Voidsuit has minor 5% resistances
+    - type: Tweak
+      message: CMO Hardsuit has no slowdown and 15% resistances
+  id: 276
+  time: '2025-05-15T01:48:19.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Fix
+      message: You should be able to fully construct mechs now.
+  id: 277
+  time: '2025-05-15T11:26:10.0000000+00:00'
+- author: Ark
+  changes:
+    - type: Tweak
+      message: Ship guns now face towards the direction they are firing. Rejoice!
+  id: 278
+  time: '2025-05-15T11:28:18.0000000+00:00'
