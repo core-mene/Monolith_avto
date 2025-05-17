@@ -12,6 +12,7 @@
         Structural: 500
         Blunt: 125
         Heat: 30
+        Ion: 3500
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
