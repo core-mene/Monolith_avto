@@ -103,7 +103,7 @@
   - type: Projectile
     damage:
       types:
-        Ion: 15000
+        Ion: 25000
         Blunt: 30
         Heat: 70
   - type: Sprite
