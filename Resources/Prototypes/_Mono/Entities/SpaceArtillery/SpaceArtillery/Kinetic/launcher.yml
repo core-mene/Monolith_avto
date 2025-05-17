@@ -154,6 +154,7 @@
     shipType: Ballistic
 
 # Sevastopol 203mm
+# cucked version of cyrexa for mercs
 
 - type: entity
   id: WeaponTurretSevastopol
