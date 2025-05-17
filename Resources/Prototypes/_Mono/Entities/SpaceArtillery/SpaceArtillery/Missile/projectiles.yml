@@ -67,7 +67,7 @@
     muzzleFlash: null
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    scale: 1
+    scale: 3.5
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
@@ -82,6 +82,49 @@
     totalIntensity: 750
     intensitySlope: 5
     maxIntensity: 1500
+  - type: GatheringProjectile
+  - type: MiningGatheringSoft
+  - type: MiningGatheringHard
+  - type: TargetSeeking
+    acceleration: 1
+    detectionRange: 10
+    scanArc: 360
+    launchSpeed: 1
+    maxSpeed: 10
+
+#EMP Guided bomb
+
+- type: entity
+  id: ShipMissileGuidedBombEMP
+  name: EMP Guided Bomb
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Ion: 15000
+        Blunt: 30
+        Heat: 70
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+  - type: Ammo
+    muzzleFlash: null
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    scale: 3.5
+    requireNoGrid: true
+    shape: triangle
+  - type: TimedDespawn
+    lifetime: 40
+  - type: PointLight
+    radius: 5
+    color: blue
+    energy: 8
+  - type: EmpOnTrigger
+    range: 12
   - type: GatheringProjectile
   - type: MiningGatheringSoft
   - type: MiningGatheringHard
