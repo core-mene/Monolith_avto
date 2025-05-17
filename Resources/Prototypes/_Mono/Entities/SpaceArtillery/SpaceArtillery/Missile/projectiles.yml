@@ -44,3 +44,50 @@
     scanArc: 15
     launchSpeed: 60
     maxSpeed: 140
+
+# Guided bomb
+
+- type: entity
+  id: ShipMissileGuidedBomb
+  name: Guided Bomb
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Structural: 40000
+        Blunt: 400
+        Heat: 120
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    layers:
+    - state: frag
+  - type: Ammo
+    muzzleFlash: null
+  - type: ShipWeaponProjectile
+  - type: RadarBlip
+    scale: 1
+    requireNoGrid: true
+    shape: triangle
+  - type: TimedDespawn
+    lifetime: 40
+  - type: PointLight
+    radius: 5
+    color: orange
+    energy: 8
+  - type: ExplodeOnTrigger
+  - type: Explosive
+    explosionType: Default
+    totalIntensity: 750
+    intensitySlope: 5
+    maxIntensity: 1500
+  - type: GatheringProjectile
+  - type: MiningGatheringSoft
+  - type: MiningGatheringHard
+  - type: TargetSeeking
+    acceleration: 1
+    detectionRange: 10
+    scanArc: 360
+    launchSpeed: 1
+    maxSpeed: 10
