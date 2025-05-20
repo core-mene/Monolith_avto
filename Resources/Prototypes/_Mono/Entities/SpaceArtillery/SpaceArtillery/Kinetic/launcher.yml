@@ -47,7 +47,7 @@
   - type: RadiationBlocker
     resistance: 8
   - type: RadarBlip
-    radarColor: "#00A6FF"
+    radarColor: "#FF0000"
     scale: 1
   - type: ShipGunType
     shipType: Ballistic
@@ -92,8 +92,8 @@
     proto: 90mmBulletArmorPiercing
     fireCost: 50
   - type: RadarBlip
-    radarColor: "#FF9100"
-    scale: 1
+    radarColor: "#FF0000"
+    scale: 1.5
   - type: ShipGunType
     shipType: Ballistic
 
@@ -149,7 +149,8 @@
     proto: ShipCyrexaProjectile
     fireCost: 350
   - type: RadarBlip
-    radarColor: "#03FC9D"
+    radarColor: "#FF0000"
+    scale: 2
   - type: ShipGunType
     shipType: Ballistic
 
@@ -222,6 +223,6 @@
           collection: MetalBreak
   - type: RadarBlip
     radarColor: "#CF0E0E"
-    scale: 1
+    scale: 3
   - type: ShipGunType
     shipType: Ballistic
