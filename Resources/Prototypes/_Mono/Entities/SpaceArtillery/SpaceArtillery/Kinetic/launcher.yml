@@ -86,7 +86,7 @@
     proto: ShipDravonProjectile
     fireCost: 28
   - type: RadarBlip
-    radarColor: "#FF9100"
+    radarColor: "#FF0000"
     scale: 1
   - type: ShipGunType
     shipType: Ballistic
@@ -170,7 +170,7 @@
     proto: ShipTarnyxProjectile
     fireCost: 8000
   - type: RadarBlip
-    radarColor: "#FF9100"
+    radarColor: "#035EFC"
     scale: 1
   - type: ShipGunType
     shipType: Ballistic
