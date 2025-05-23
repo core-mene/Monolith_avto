@@ -20,7 +20,8 @@
     muzzleFlash: null
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    scale: 3
+    radarColor: "#CF0E0E"
+    scale: 4
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
@@ -59,7 +60,7 @@
     radius: 3.5
     energy: 0.5
   - type: RadarBlip
-    scale: 0.35
+    scale: 0.5
     requireNoGrid: true
     shape: triangle
 
@@ -134,7 +135,7 @@
     energy: 0.5
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    scale: 1
+    scale: 1.5
     requireNoGrid: true
     shape: triangle
 
@@ -226,7 +227,7 @@
     muzzleFlash: null
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    scale: 2.5
+    scale: 3
     requireNoGrid: true
     shape: triangle
   - type: TimedDespawn
