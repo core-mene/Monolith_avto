@@ -161,7 +161,7 @@
     muzzleFlash: null
   - type: ShipWeaponProjectile
   - type: RadarBlip
-    radarColor: "#FCBA03"
+    radarColor: "#FB00FF"
     scale: 1
     requireNoGrid: true
     shape: triangle
