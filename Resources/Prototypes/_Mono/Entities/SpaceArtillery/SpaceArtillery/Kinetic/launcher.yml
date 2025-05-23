@@ -87,7 +87,7 @@
     fireCost: 28
   - type: RadarBlip
     radarColor: "#FF0000"
-    scale: 1
+    scale: 1.5
   - type: ShipGunType
     shipType: Ballistic
 
@@ -171,7 +171,7 @@
     fireCost: 8000
   - type: RadarBlip
     radarColor: "#035EFC"
-    scale: 1
+    scale: 2.5
   - type: ShipGunType
     shipType: Ballistic
 

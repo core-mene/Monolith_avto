@@ -1,4 +1,4 @@
-# VESPERA
+# ADMP-27 VESPERA
 
 - type: entity
   id: WeaponTurretVespera
@@ -36,7 +36,7 @@
     fireCost: 867
   - type: RadarBlip
     radarColor: "#FCBA03"
-    scale: 1
+    scale: 2
   - type: ShipGunType
     shipType: Missile
 
@@ -143,7 +143,7 @@
   - type: ShipGunType
     shipType: Missile
 
-# TOVEK
+# ADMX-23 TOVEK
 
 - type: entity
   id: WeaponTurretTovek
@@ -180,7 +180,7 @@
     proto: ShipMissileASM557
     fireCost: 17500
   - type: RadarBlip
-    radarColor: "#FB00FF"
-    scale: 1.5
+    radarColor: "#035EFC"
+    scale: 2
   - type: ShipGunType
     shipType: Missile
