@@ -139,6 +139,8 @@
     requireNoGrid: true
     shape: triangle
 
+# 90mm AP
+
 - type: entity
   id: 90mmBulletArmorPiercing
   parent: 90mmBulletExplosiveBase
@@ -159,6 +161,8 @@
     maxTileBreak: 1
   - type: PointLight
     color: orange
+
+# 90mm HE
 
 - type: entity
   id: 90mmBulletExplosiveBase

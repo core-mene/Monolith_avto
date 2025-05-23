@@ -119,7 +119,24 @@
   - type: Actions
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMissileASM302
-    fireCost: 35
+    fireCost: 300
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 800
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#FCBA03"
     scale: 1.5
