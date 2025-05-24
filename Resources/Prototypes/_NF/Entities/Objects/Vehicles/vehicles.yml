@@ -671,3 +671,55 @@
           components:
             - Gun
         priority: 2
+
+#carrier
+- type: entity
+  parent: VehicleSkeletonMotorcycle
+  id: VehicleECV
+  name: ECV
+  description: Expeditionnary Carrier Vehicle
+  components:
+  - type: Sprite
+    sprite: _NF/Objects/Vehicles/ECV.rsi
+   # layers:
+   # - state: hull
+   # - state: engine
+   #   map: ["enum.VehicleVisualLayers.AutoAnimate"]
+   # - state: lights
+   #   shader: unshaded
+    noRot: true
+  - type: Storage
+    grid:
+    - 0,0,20,12
+    maxItemSize: Huge
+    blacklist:
+      components:
+      - HumanoidAppearance
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: Strap
+    unbuckleDistanceSquared: 0.09 # (30 cm)^2
+  - type: ItemSlots
+    slots:
+      key_slot:
+        name: vehicle-slot-component-slot-name-keys
+        whitelist:
+          requireAll: true
+          tags:
+          - VehicleKey
+          - ATVKeys
+        priority: 1
+        insertSound:
+          path: /Audio/Effects/Vehicle/vehiclestartup.ogg
+          params:
+            volume: -3
+  - type: MovementSpeedModifier
+    acceleration: 1
+    friction: 1
+    baseWalkSpeed: 4.5
+    baseSprintSpeed: 7
